@@ -10,3 +10,4 @@ Private-Package: org.greenscape.organization.rest
 	org.greenscape.organization.service;version=latest,\
 	org.eclipse.osgi.services
 -dsannotations: *
+-sources: false
