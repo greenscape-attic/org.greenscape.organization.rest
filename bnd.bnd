@@ -1,13 +1,16 @@
 Bundle-Version: 0.1.0
 Private-Package: org.greenscape.organization.rest
--buildpath: osgi.core;version=4.3,\
-	osgi.cmpn,\
+-buildpath:  \
+	osgi.core;version=4.3,\
 	org.amdatu.web.rest.jaxrs,\
 	org.amdatu.web.rest.doc,\
 	org.greenscape.organization;version=latest,\
 	jackson-mapper-asl,\
 	jackson-core-asl,\
 	org.greenscape.organization.service;version=latest,\
-	org.eclipse.osgi.services
+	org.eclipse.osgi.services,\
+	org.greenscape.organization.persistence;version=latest,\
+	org.greenscape.persistence;version=latest
 -dsannotations: *
--sources: false
+javac.source: 1.8
+javac.target: 1.8
